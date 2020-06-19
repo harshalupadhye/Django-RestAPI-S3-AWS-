@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Django</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}" />
+    </head>
+    <body>
+        <form action="{% url 'submit' %}">
+            <img src="{% static 'image/new.jpg' %}" />
+            <h1 id="nill">Hello Welcome To The Bootcamp</h1>
+            <input type="text" name="name" placeholder="Name"/>
+            <input type="email" name="Email" placeholder="Email"/>
+            <input type="password" name="Password" placeholder="password"/>
+            <input type="submit" class="submit" name="submit" value="submit"/>
+
+        </form>
+       
+        
+    </body>
+    
+</html>
