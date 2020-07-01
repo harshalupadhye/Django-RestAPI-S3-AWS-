@@ -1,0 +1,228 @@
+.topnav{
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    
+    padding: 23px 14px 14px 23px;
+    text-decoration: none;
+    font-size: 23px;
+    
+}
+
+
+.topnav a:hover{
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+.topnav a:active{
+    background-color: #f2f2f2;
+}
+
+.img{
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:1750px;
+
+    
+    background-image: url("Consultadd.jpg");
+}
+.back1{
+    background-color: #333333;   
+}
+.back1 a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.back2{
+    background-color: #333333;   
+}
+.back2 a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+body{
+    padding:0;
+    margin:0;
+    background-color:white;
+    font-size: 16px;
+    color:black;
+    font-family:"roboto","san-serif";
+    font-weight: 300 ;
+    /*background-image: url("new.jpg");*/
+    
+
+}
+
+#login-box{
+    position: relative;
+    margin-top:0%;
+    margin-left: 58%;
+    margin-bottom:0%;
+    margin-right:0%;
+    width:805px;
+    height:893px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px;
+}
+
+.right{
+    background-image: url("new.jpg");
+    position: absolute;
+    top:63px;
+    left:0px;
+    right:800px;
+    bottom:0px;
+}
+.left{
+    position: absolute;
+    box-sizing: border-box;
+    top:0px;
+    left:0px;
+    padding-left:200px;
+    padding-top:0px;
+    padding-right:300px;
+    
+}
+h1{
+    padding-left:100px; 
+    font-weight:600;  
+    font-size:50px;
+    font-style: italic;
+}
+
+input[type="text"],
+input[type="password"]{
+    left:0px;
+    margin-bottom:14px;
+    background-color: whitesmoke;
+    
+    width:400px;
+    height:50px;
+    border:none;
+    border-bottom: 1px solid blue;
+    font-family: sans-serif;
+    font-size:20px;
+    font-weight:400;
+    transition:0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    color:rgb(104, 104, 236);
+    transition:0.2s ease-in;
+    border-bottom:3px solid rgb(255, 251, 0);
+
+}
+input[type="submit"]{
+    width:400px;
+    height:50px;
+    font-family:sans-serif;
+    font-size:20px;
+    font-weight:400;
+    background-color:#16a085;
+    color:#fff; 
+    text-transform:uppercase;
+    transition:0.2s ease;
+    cursor: pointer;
+    border-radius:5px;
+    box-shadow:0 4px 6px 0 black;
+}
+input[type="submit"]:hover{
+    opacity:0.7;
+    box-shadow:0 2px 4px 0 black;
+}
+input[type="submit"]:focus{
+    
+    background-color:#fff;  
+    color:#16a085;
+}
+h3{
+    padding-left:150px;
+    margin-top:200px;
+    font-weight:200;
+}
+
+.facebook{
+background-color:white;
+width: 400px;
+height:50px;
+margin-bottom:10px;
+font-size: 20px;
+font-weight:400;
+font-family:sans-serif;
+color:rgb(81, 81, 160);
+text-transform:uppercase;
+cursor:pointer;
+border-radius:5px;
+box-shadow:0 4px 6px 0 black;
+transition:0.2s ease;
+border-color:rgb(81, 81, 160);
+border-style:solid;
+border-width:4px;
+}
+.google{
+    background-color:white;
+    width:400px;
+    height:50px;
+    font-size:20px;
+    font-weight:400;
+    font-family:sans-serif;
+    cursor: pointer;
+    text-transform:uppercase;
+    color:rgb(240, 126, 126);
+    border-radius:5px;
+    box-shadow:0 4px 6px 0 black;
+    transition:0.2s ease;
+    border-color:rgb(240, 126, 126);
+    border-style:solid;
+    border-width:4px ;
+
+}
+.facebook:hover{
+    opacity:0.7;
+    box-shadow:0 2px 4px 0 black;
+    border-color:black;
+    background-color:rgb(81, 81, 160) ;
+    color:black;
+}
+.google:hover{
+    opacity:0.7;
+    box-shadow:0 2px 4px 0 black;
+    border-color:black;
+    background-color:rgb(240, 126, 126);
+    color:black;
+}
+.facebook:focus{
+    background-color:#fff;  
+    color:rgb(81, 81, 160);
+}
+
+
+.google:focus{
+    background-color:#fff;  
+    color:rgb(240, 126, 126);
+}
+
+

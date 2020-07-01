@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include("newapp.urls")),
     path('',include("display.urls")),
+    path('',include("display.urls")),
+    path('',include("display.urls")),
 ]

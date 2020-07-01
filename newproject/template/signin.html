@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SignIn
+        </title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/Signin.css' %}" />
+        
+    </head>
+    <body>
+        <form action="{% url 'submitin' %}">
+        <div class="topnav">
+           <div class="img">
+             <h6>.</h6>
+            </div>
+            <div class="tag">
+            <a class="active" href="signup">Signup</a>
+            
+        </div>
+    </div>
+   <div class="right">
+    <img src="{% static 'image/new.jpg' %}" alt="new" width="1200" height="895">
+    </div>
+        <div id="login-box">
+            <div class="left">
+                <h1>Sign In</h1>
+                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="Email" placeholder="E-mail"/>
+                <input type="password" name="Password" placeholder="Password"/>
+                
+                <input type="submit" class="submit" name="submitin" value="submit"/>
+                <h3>Login With</h3>
+                <button class="facebook" onclick="window.location.href='https://www.facebook.com';">Facebook</button>
+                <button class="google" onclick="window.location.href='https://www.google.com';">Google</button>
+
+            </div>
+        </div>
+        </form>
+    </body>
+</html>
